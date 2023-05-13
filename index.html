@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic Banking App</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Welcome to the Basic Banking App</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Accounts</a></li>
+			<li><a href="#">Transfers</a></li>
+			<li><a href="#">Payments</a></li>
+			<li><a href="#">Contact Us</a></li>
+		</ul>
+	</nav>
+	<main>
+		<h2>Account Overview</h2>
+		<table>
+			<tr>
+				<th>Account Number</th>
+				<th>Account Type</th>
+				<th>Balance</th>
+			</tr>
+			<tr>
+				<td>123456789</td>
+				<td>Savings</td>
+				<td>$1,000.00</td>
+			</tr>
+			<tr>
+				<td>987654321</td>
+				<td>Checking</td>
+				<td>$500.00</td>
+			</tr>
+			<tr>
+				<td>136789432</td>
+				<td>Checking</td>
+				<td>$800.00</td>
+			</tr>
+			<tr>
+				<td>567943218</td>
+				<td>Checking</td>
+				<td>$400.00</td>
+			</tr>
+			<tr>
+				<td>458976321</td>
+				<td>Checking</td>
+				<td>$600.00</td>
+			</tr>
+			<tr>
+				<td>568432198</td>
+				<td>Checking</td>
+				<td>$700.00</td>
+			</tr>
+			<tr>
+				<td>347895416</td>
+				<td>Checking</td>
+				<td>$400.00</td>
+			</tr>
+			<tr>
+				<td>876345219</td>
+				<td>Checking</td>
+				<td>$1200.00</td>
+			</tr>
+			<tr>
+				<td>674321298</td>
+				<td>Checking</td>
+				<td>$1000.00</td>
+			</tr>
+			<tr>
+				<td>675439216</td>
+				<td>Checking</td>
+				<td>$1400.00</td>
+			</tr>
+		</table>
+		<h2>Transfer Funds</h2>
+		<form>
+			<label for="from-account">From Account:</label>
+			<select id="from-account" name="from-account">
+				<option value="savings">Savings</option>
+				<option value="checking">Checking</option>
+			</select>
+			<label for="to-account">To Account:</label>
+			<select id="to-account" name="to-account">
+				<option value="savings">Savings</option>
+				<option value="checking">Checking</option>
+			</select>
+			<label for="amount">Amount:</label>
+			<input type="text" id="amount" name="amount">
+			<input type="submit" value="Transfer">
+		</form>
+	</main>
+	<footer>
+		<p>&copy; Basic Banking App 2023</p>
+	</footer>
+</body>
+</html>
